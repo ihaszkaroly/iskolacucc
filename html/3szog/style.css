@@ -1,0 +1,49 @@
+body{
+    background-color: #ccc;
+}
+.slide{
+    background-color: royalblue;
+    width: 800px;
+    height: 430px;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px blueviolet;
+}
+.slide h1{
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 150px;
+}
+.slide h3{
+    font-family: Helvetica;
+    text-align: center;
+}
+.keret{
+    margin: 30px;
+}
+pre{
+    background-color: crimson;
+    color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.csupasz{
+    width: 400px;
+}
+.csupasz p{
+    font-size: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+
+}
+.kerek{
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 499px;
+    text-align: center;
+    border-radius: 100%;
+}
+.kerek pre{
+    display: inline-block;
+    margin-top: 40%;
+    font-size: 18px;
+}

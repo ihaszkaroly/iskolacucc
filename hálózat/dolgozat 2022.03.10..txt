@@ -1,0 +1,108 @@
+Lehetséges dolgozatkérdések:
+
+
+1.) Minek a rövidítése a DNS?
+
+	Domain Name System (Domain név és Ip cím összerendelése)
+
+2.) Mire való a SOA rekord?
+
+	Zóna kezdő rekord, Megadja egy zónára vonatkozó információkat
+
+3.) Mire való az NS rekord?
+	
+	Név ügyben a felelős szerver megjelölése
+
+4.) Mire való az A rekord?
+
+	IPv4 megadására
+
+5.) Mire való az AAAA rekord?
+
+	IPv6 megadására
+
+6.) Mire való a CNAME rekord?
+
+	Alias megadására
+
+7.) Mire való a PTR rekord?
+
+	Cím név feloldására
+
+8.) Mire való a TXT rekord?
+
+	Tetszőleges szöveget írhatunk
+
+9.) Mi az FQDN?
+
+	Fully Qualified Domain Name, 
+
+10.) Mire való a szériaszám?
+
+	A mentések számontartására, dátum szerint (Dátum_aznapi_mentés_sorszáma)
+
+11.) Hány ugrás lehetséges RIP protokoll esetén?
+
+	Összesen 15 ugrás
+
+12.) Hány ugrás lehetséges OSPF protokoll esetén?
+
+	Nincs meghatározva, a hardver limitálja ezt az értéket
+
+13.) Milyen módszert használ a RIP protokoll a legjobb út felderítésére?
+
+	távolságvektor figyeli
+
+14.) Milyen időközönként küldenek frissítést a RIP routerek?
+
+	30 másodperc
+
+15.) Milyen időközönként küldenek frissítést a OSPF routerek?
+
+	Csak akkor ha változás következik be
+
+16.) Cisco routeren OSPF beállításakor ezt írjuk: router ospf 100. Mi a 100?
+
+	Folyamatazonosító
+
+17.) Melyik routing protokoll támogatja a IPV6-ot?
+
+	OSPF
+
+18.) RIP routing esetén mit jelen a version 2?
+
+	A RIP második verzióját használjuk.
+
+19.) Az OSPF routerek ezzel az üzenet típussal ellenőrzik a szomszédot.
+
+	Hello
+
+20.) Az OSPF esetén lenni kell egy gerinc hálózatnak, ennek a száma kötelezően:
+
+	0
+
+21.) A DNS protokoll a következő rétegbe tartozik:
+
+	alkalmazási
+
+22.) A DNS a következő protokoll felett működik. Több válasz is lehetséges:
+
+	TCP
+	UDP
+
+23.) Többes hozzáférésű hálózaton a routerek választanak maguk közül egy mestert. Hogyan nevezik?
+
+	DR
+
+24.) Milyen porton éri el a DNS szervert a böngésző?
+
+	53
+
+25.) Milyen protokollon éri el a DNS szervert egy böngésző?
+
+	UDP
+
+26.) Milyen protokollon kérdezi le a másodlagos (slave) DNS szerver a Master szervert?
+
+	TCP
+

@@ -1,0 +1,99 @@
+#Ihász Károly IFRA 13. 2022-03-10
+
+#R1
+enab
+conf t
+hostname R1
+ip dhcp pool 1
+	network 192.168.10.0 255.255.255.0
+	default-router 192.168.10.1
+	dns-server 192.168.10.2
+	exit
+interface GigabitEthernet0/0
+	ip address 192.168.10.1 255.255.255.0
+	no shu
+interface Serial0/0/0
+	ip address 188.188.188.1 255.255.255.252
+	no shu
+	exit
+banner login 	"
+				Ihasz Karoly 
+				IFRA 13.
+				2022-03-10
+				"
+router ospf 10
+	network 192.168.10.0 0.0.0.255 area 0
+	network 188.188.188.0 0.0.0.3 area 0
+	exit
+do w
+
+#R2
+enab
+conf t
+hostname R2
+interface Serial0/0/0
+	ip address 188.188.188.2 255.255.255.252
+	no shu
+interface Serial0/0/1
+	ip address 188.188.188.5 255.255.255.252
+	no shu
+	exit
+banner login 	"
+				Ihasz Karoly 
+				IFRA 13.
+				2022-03-10
+				"
+router ospf 10
+	network 188.188.188.0 0.0.0.3 area 0
+	network 188.188.188.4 0.0.0.3 area 0
+	exit
+do w
+
+#R3
+enab
+conf t
+hostname R3
+interface Serial0/0/0
+	ip address 188.188.188.6 255.255.255.252
+	no shu
+interface Serial0/0/1
+	ip address 188.188.188.9 255.255.255.252
+	no shu
+	exit
+banner login 	"
+				Ihasz Karoly 
+				IFRA 13.
+				2022-03-10
+				"
+router ospf 10
+	network 188.188.188.8 0.0.0.3 area 0
+	network 188.188.188.4 0.0.0.3 area 0
+	exit
+do w
+
+#R4
+enab
+conf t
+hostname R4
+ip dhcp pool 1
+	network 192.168.20.0 255.255.255.0
+	default-router 192.168.20.1
+	dns-server 192.168.10.2
+	exit
+interface GigabitEthernet0/0
+	ip address 192.168.20.1 255.255.255.0
+	no shu
+interface Serial0/0/0
+	ip address 188.188.188.10 255.255.255.252
+	no shu
+exit
+banner login 	"
+				Ihasz Karoly 
+				IFRA 13.
+				2022-03-10
+				"
+router ospf 10
+	network 192.168.20.0 0.0.0.255 area 0
+	network 188.188.188.8 0.0.0.3 area 0
+	exit
+do w

@@ -1,0 +1,19 @@
+.kepek{
+    position: relative;
+}
+.nagykep{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    left: 105px;
+    top: 105px;
+    position: absolute;
+    border-radius: 5px;
+}
+#kiskep{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    border-radius: 5px;
+}

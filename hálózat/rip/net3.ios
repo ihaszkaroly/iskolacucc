@@ -1,0 +1,59 @@
+!R1
+enab
+    conf t
+        hostname R1
+        int g 0/0
+        desc PUB1
+        ip add 192.168.1.1 255.255.255.0
+        no shu
+        exit
+        int s 0/0/0
+        desc LAN1
+        ip add 193.41.1.1 255.255.255.252
+        no shu
+        exit
+!R2
+enab
+    conf t
+        hostname R2
+        int s 0/0/0
+        ip add 193.41.1.2 255.255.255.252
+        desc PUB1
+        no shu
+        exit
+        int s 0/0/1
+        ip add 193.41.2.1 255.255.255.252
+        desc PUB2
+        no shu
+        exit
+!R3
+enab
+    conf t
+        hostname R3
+        int s 0/0/0
+        ip add 193.41.2.2 255.255.255.252
+        desc PUB2
+        no shu
+        exit
+        int g 0/0
+        ip add 192.168.2.1 255.255.255.0
+        desc LAN2
+        no shu
+!R1 RIP
+router rip 
+    version 2
+    network 192.168.1.0
+    network 193.41.1.0
+    exit
+!R2 RIP
+router rip
+    version 2
+    network 193.41.1.0
+    network 193.41.2.0
+    exit
+!R3 RIP
+router rip
+    version 2
+    network 193.41.2.0
+    network 192.168.2.0
+    exit

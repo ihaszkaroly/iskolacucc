@@ -1,0 +1,74 @@
+1.) Hol lehet beállítani a Debian GNU/Linuxban tartosan fix IP címet?
+/etc/network/interface
+
+2.) Hol lehet beállítani tartósan dinamukis IP címet Debian GNU/Linuxon?
+/etc/network/interface
+
+3.) Hogyan frissítjük a csomag információkat?
+apt update
+
+4.) Mit csinál a következő parancs? apt update
+frissíti a csomaginformációkat
+
+5.) Hogyan veszünk fel új felhasználót?
+adduser tibi
+
+6.) Hogyan veszünk fel új csoportot?
+addgroup human
+
+7.) Hogyan formázhatjuk ext4 fájlrendszerre a /dev/sdc3 partíciót?
+mkfs.ext4 /dev/sdc3
+
+8.) Hogyan csatoljuk a /mnt/a könyvtárba a /dev/sdc4 eszközt ideiglenesen?
+mount -t ext4 /dev/sdc4 mnt/a
+
+9.) Hogyan nézhetjük meg a futó folyamatokat?
+ps 
+
+10.) Melyik az elsőként induló folyamat? Mi a PID száma?
+init, 1
+
+11.) Mit csinál a tail parancs a következő utasításban? tail /var/adat.txt
+Megmutatja az adat.txt fálj utolsó 10 sorát
+
+12.) Mit csinál head parancs a következő utasításban? head /var/adat.txt
+Megmutatja az adat.txt fájl első 10 sorát
+
+13.) Melyik partícionáló program?
+fdisk
+
+14.) Hol tárolódnak a felvett felhasználók?
+/etc/passwd
+
+15.) Hol tárolódnak a felvett csoportok?
+/etc/group
+
+16.) Hogyan lehet csoportot törölni?
+delgroup human
+
+17.) Hogyan lehet felhasználót törölni?
+deluser tibi
+
+18.) Hogyan nézhetjük meg, hogy fel van-e véve a mari nevű felhasználó?
+getent passwd mari
+
+19.) Hogyan nézhetünk meg egy csoportot?
+getent group human
+
+20.) Mit csinál az id parancs?
+Kiírja a felhasználó azonosítóját és csoportjait
+
+21.) Hol lehet belépés utáni üdvözlő üzenetet beállítani?
+/etc/motd
+
+22.) Hol lehet bejelentkezés előtti üzenetet beállítani?
+/etc/issue
+
+23.) Hol lehet beállítani, hogy ha SSH belépés előtt is megjelenjen üzenet?
+/etc/ssh/sshd_config
+
+24.) Mi a neve a ciklikus időzítő démonnak?
+cron
+
+25.) Mi a neve az egyszeri időzítő démonnak?
+at 

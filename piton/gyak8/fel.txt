@@ -1,0 +1,31 @@
+
+1.)
+Mentés: kutya.py
+Írjon programot, amely bekéri kutyák fajtáit. 
+Ha felhasználó nem ír semmit, a program lépjen ki.
+Vizsgálja meg, hogy beírt fajta dalmata, agár, terrier vagy kuvasz. 
+Ha dalmata, agár, terrier vagy kuvasz, a program
+írja ki, hogy "Van ilyen".
+Ellenkező esetben írja ki, hogy "Nincs ilyen fajta".
+
+
+2.)
+Mentés: dog.py
+Írjon programot, amely bekéri "vege" végjelig kutyafjtákat.
+Írjon függvényet, amely megvizsgálja, hogy az adott kutyfajta
+a dalmata, agár, terrier vagy kuvasz. 
+A függvény neve legyen have_dog()
+A függvény paraméterként fogadjon egy fajta nevű változót.
+A függvény adjon vissza egy logikai értéket. 
+Adjon vissza igaz értéket, ha dalmata, agár, terrier vagy kuvasz.
+Ellenkező esetben hamis értékkel térjen vissza. 
+Használja fel a függvényt a ciklusban, annak vizsgálatára, hogy
+van-e ilyen kutya.
+Ha van ilyen kutya írassa ki, hogy "Van ilyen fajta", ellenkező esetben:
+"Jelenleg nincs ilyen fajta".
+
+3.) 
+Egy fájlkezelős feladat OOP.
+
+
+

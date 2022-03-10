@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #474747;
+    color:#dddd;
+}
+.doboz{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #474747;
+    padding: 20px;
+}
+.head{
+    padding-top: 30px;
+    margin-left: 450px;
+}
+.nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.jszel{
+    background-color: #ff8d26 ;
+    padding: 10px;
+    margin-left: 2px;
+}
+.kozep{
+    background-color: #ff8d26 ;
+    padding: 10px;
+    margin-left: 2px;
+}
+.bszel{
+    background-color: #ff8d26 ;
+    padding: 10px;
+}
+.almenu{
+    display: none;
+}
+.bszel:hover .almenu{
+    display: block;
+}

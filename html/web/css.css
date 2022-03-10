@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.doboz{
+    max-width: 800px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.hed{
+    background-color: #c7c3c3;
+    padding: 40px 25px;
+}
+.navi{
+    background-color: #f2dfbd;
+    padding: 0px 10px 10px 10px;
+}
+.navi ul{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navi ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.navi ul li a:hover{
+    color: white;
+}
+.navi h2{
+    padding-left: 10px;
+}
+.more{
+    background-color: #b9c99b;
+    padding: 0 15px 10px 15px;
+}
+.foot{
+    background-color: #89966f;
+    padding: 10px;
+}
+.kutya{
+    width: 30%;
+    float: right;
+}
+.content{
+    width: 70%;
+}
+.cica::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+h2{
+    font-size: 16px;
+}
+html{
+    font-size: 16px;
+}

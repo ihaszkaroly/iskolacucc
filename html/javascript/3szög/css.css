@@ -1,0 +1,23 @@
+.doboz{
+    background-color: navy;
+    color: wheat;
+    margin: 5% 20%;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+input{
+    margin-top: 3px;
+}
+label{
+    width: 70px;
+    display: inline-block;
+}
+button{
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+body{
+    background-color: #cccc;
+}

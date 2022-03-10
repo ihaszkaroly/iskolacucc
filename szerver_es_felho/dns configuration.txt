@@ -1,0 +1,17 @@
+zone "barna.lan"{
+	type master
+	file "master/barna.lan.zone";
+};
+
+$TTL 3D
+barna.lan. SOA ns.barna.lan. hostmaster.barna.lan. (
+		2022021501
+		8H
+		2H
+		4W
+		1D
+		)
+
+barna.lan.		NS	na.barna.lan.
+barna.lan.		A	172.16.16.114
+ns.barna.lan.	A	172.16.16.114pa

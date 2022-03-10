@@ -1,0 +1,17 @@
+Állítsa be háttérnek a „brick-wall.jpg” képet. 
+Állítsa be a karakterkódolást utf-8 ra, az oldal nyelve legyen magyar. 
+Az oldal címe legyen Elhagyott gyárak. 
+A tartalom az oldal közepén helyezkedjen el és 900 pixel széles legyen. *
+Állítson be a tartalom számára margót az oldal tetején. *
+A tartalom hátterének állítson be más háttérszínt ( #f2f1f8; rgb(242,241,248) ) *
+A betűszin legyen fehér, használja a Verdana betűcsaládot. *
+A címsor legyen csupa nagybetűs *
+A betűtávolság legyen 10 pixel, 1. szintű címsor. *
+A bekezdések legyenek sorkizártak. *
+A képek a minta szerint helyezkedjenek el és 300 képpont szélesek legyenek. *
+A képeknek állítson be folytonos fehér 1 pixel méretű keretet,
+a képtől 2 képpont távolságra. *
+A képek szövegtől való távolsága legyen 10 pixel. *
+Az alcímek legyenek 3. szinű címsorok és kiemeltek. *
+Az alcímek és a bekezdések között állítson be 1 képpont vastagságú folytonos fehér
+elválasztó vonalat. *

@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0
+}
+.m6{
+    padding: 6px;
+}
+a:active,a:hover{
+    background-color: #cccc;
+}
+a{
+    text-decoration: none;
+    padding: 5px, 10px;
+}
+body{}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.content{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.bar a{
+
+ }
+.bar::after, .row::after, .row-padding::after {content: "";clear:both;display:table;}
+.bar{
+    padding: 10px 20px;
+}
+.bg-black {
+    background-color: black;
+}
+.block{
+    display: block;
+}
+.hide-small{
+    display: none;
+}
+.border-bottom{ 
+    border-bottom: 1 px solid #dddd;
+}
+.border-light-grey{ 
+     border-color: #cccc;
+}
+.button:hover{
+    background-color: grey;
+}
+.col .button{
+    padding: 8px 16px;
+    border: none;
+    width: 100%;
+    color: black;
+}
+.button{
+    cursor: pointer;
+}
+.center{
+    margin: auto;
+}
+.col{
+    width: 100%;
+    float: left;
+}
+.display-container{ 
+    position: relative;
+}
+.display-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.display-topleft{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.greyscale,.grayscale{
+    filter: grayscale(75%);
+}
+
+.hover-text-green:hover{
+    background-color: green;
+}
+.input{
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom:  1px solid gray;
+}
+.relative{
+    position: relative;
+}
+.light-grey{ 
+    color: black;
+}
+.line-15{
+    line-height: 1.5;
+}
+.margin-16{
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+.margin-bottom{
+    margin-bottom: 16px;
+ }
+.opacity{
+    opacity: 0.8;
+}
+.opacity-min{
+    opacity: 0.9;
+}
+.padding{
+    padding: 8px 16px;
+}
+.padding-16{ 
+    padding-top: 16px;
+}
+.padding-24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+ }
+.padding-32{ 
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.padding-all-8{ 
+    padding: 8px;
+}
+.right{
+    float: right;
+}
+.row-padding>.col{}
+.text-center{
+    text-align: center;
+ }
+.text-white{ 
+    color: white;
+ }
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 15), 0 2px 10px rgba(0, 0, 0, 10);
+    background-color: white;
+    z-index: 50;
+}
+.wide{ 
+    line-height: 1.5;
+}
+.xxlarge{
+    font-size: 48px;
+}
+@media (min-width:601px){
+    .hide-small{display: block;}
+    .col{width: 49.99999%;}
+}
+@media (min-width:901px){
+    .hide-small{
+        display: block;
+    }
+    .col{width: 24.99999%; }
+}
+button:hover{}

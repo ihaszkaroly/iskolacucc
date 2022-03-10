@@ -1,0 +1,24 @@
+A program vizsgázók nevét és pontszámát kéri be. Eldönti és kiírja, hogy a vizsgázó sikeresen vizsgázott-e. A 
+vizsga sikeres, ha legalább 48 pontot ért el a vizsgázó.
+Írjon programot vizsga.py néven!
+Kérje be a vizsgázók nevét és az elért pontszámokat! Írja meg azt a függvényt, ami eldönti, hogy a vizsga 
+sikeres-e! A függvény paramétere a vizsgázó által elért pontszám, a visszatérési értéke logikai érték: igaz, ha 
+a vizsga sikeres, hamis, ha sikertelen. Ezt a függvényt használja fel a programjában!
+A program kérdezgesse addig újabb és újabb vizsgázó nevét és pontszámát, amíg a vizsgázó nevének 
+megadásakor üres bemenetet nem kap! Ilyen akkor történik, ha a felhasználó egyszerűen Entert nyom, 
+anélkül hogy bármit is begépelne.
+A program üzeneteinek megfogalmazásában kövesse az alábbi példát! Azokat a részeket, amiket a felhasználó 
+gépel be, a mintában vastagított és döntött betűkkel emeltük ki.
+
+C:\Users\raerek\programok>vizsga.py 
+Add meg a vizsgázó nevét! Linus Torvalds
+Add meg a pontszámát! 121
+Linus Torvalds vizsgája sikeres.
+Add meg a vizsgázó nevét! Dennis Ritchie
+Add meg a pontszámát! 119
+Dennis Ritchie vizsgája sikeres.
+Add meg a vizsgázó nevét! Steve Ballmer
+Add meg a pontszámát! 27
+Steve Ballmer vizsgája sikertelen.
+Add meg a vizsgázó nevét! 
+C:\Users\raerek\programok>
